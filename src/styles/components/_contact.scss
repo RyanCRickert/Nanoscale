@@ -1,0 +1,19 @@
+.contact {
+  margin: auto;
+  width: 50%;
+  textarea {
+    height: 10rem;
+    width: 100%;
+  }
+
+  @media (max-width: $desktop-breakpoint) {
+    width: 100%;
+  }
+}
+
+.contact-point {
+  
+  input {
+    width: 100%;
+  }
+}

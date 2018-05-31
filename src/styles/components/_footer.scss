@@ -1,0 +1,26 @@
+.footer {
+  background: $off-white;
+  bottom: 0;
+  position: fixed;
+  width: 100vw;
+}
+
+.footer__content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: $s-size 0;
+}
+
+.linkedin-fa {
+  background: $light-blue;
+  border-radius: 5px;
+  color: white;
+  float: right;
+  font-size: 1.3em;
+  padding: 0.5rem;
+
+  @media (max-width: $desktop-breakpoint) {
+    margin-right: $s-size;
+  }
+}

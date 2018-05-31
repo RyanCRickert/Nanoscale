@@ -1,0 +1,23 @@
+.pswp__caption__center {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.pswp-thumbnail {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 $s-size;
+  margin-bottom: $s-size;
+  transition: opacity 0.3s ease;
+  &:hover {
+    opacity: 0.7;
+  }
+
+  @media (max-width: $desktop-breakpoint) {
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
